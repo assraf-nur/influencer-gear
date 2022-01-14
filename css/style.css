@@ -92,8 +92,9 @@ section{
    left: 0;
  }
  
- .camimg:hover {
-   transform: rotate( 15deg );
+ .camimg:hover img {
+   transform: rotate( 35deg );
+   transition: transform 1s;
  }
  .mart{
     margin-top: 100px;
