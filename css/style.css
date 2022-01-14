@@ -1,6 +1,5 @@
 body{
     font-family: 'Poppins', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 .title{
     font-size: 22px;
@@ -57,7 +56,7 @@ section{
     text-decoration: none;
     background-color: #E02C6D;
     border-radius: 50px;
-    padding: 10px 24px;
+    padding: 12px 24px;
     font-size: larger;
     font-weight: 500;
     color: white;
