@@ -256,8 +256,6 @@ a{
 .foot-para{
   font-size: 14px;
   font-weight: 300;
-  width: 260px;
-  margin-left: 510px;
   margin-top: -20px;
 }
 .soicon{
@@ -267,4 +265,138 @@ a{
   font-size: 30px;
   color: #ffffff;
   margin-bottom: 20px;
+}
+
+
+/* responsive query */
+/* mobile devices */
+@media only screen and (max-width: 688px){
+  section{
+    margin: 0;
+  }
+  .navbar{
+    display: none;
+  }
+  .camera{
+    flex-direction: column;
+    width: 100%;
+  }
+  .start-title{
+    font-size: 15px;
+  }
+  .start-para{
+    font-size: 10px;
+    width: 40%;
+  }
+  .camimg{
+    margin-top: 200px;
+    margin-left: 0;
+  }
+  .svg{
+    width: 90%;
+  }
+  .cam{
+    width: 70%;
+  }
+  .mart{
+    display: none;
+  }
+  .popular-title{
+    margin-left: -100px;
+  }
+  .gears-column{
+    margin-left: 0;
+    margin-top: 30px;
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 0;
+  }
+  .feature-product{
+    margin-left: -30;
+  }
+  .feature{
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 200px;
+  }
+  .feature-image{
+    margin-left: -100px;
+    width: 100%;
+  }
+  .feature-title{
+    width: 100%;
+    margin-left: -200px;
+  }
+  .feature-para{
+    width: 3000px;
+    margin-left: -200px;
+  }
+  .footer{
+    margin-top: 800px;
+  }
+}
+
+/* Device like tablet */
+@media only screen and (max-width: 992px){
+  section{
+    margin: 100px;
+  }
+  .navbar{
+    display: none;
+  }
+  .camera{
+    flex-direction: column;
+    width: 100%;
+  }
+  .start-title{
+    font-size: 15px;
+  }
+  .start-para{
+    font-size: 10px;
+    width: 40%;
+  }
+  .camimg{
+    margin-top: 200px;
+    margin-left: 0;
+  }
+  .svg{
+    width: 90%;
+  }
+  .cam{
+    width: 70%;
+  }
+  .mart{
+    display: none;
+  }
+  .popular-title{
+    margin-left: -100px;
+  }
+  .gears-column{
+    flex-direction: column;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+  }
+  .feature-product{
+    margin-left: -30;
+  }
+  .feature{
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 200px;
+  }
+  .feature-image{
+    margin-left: -100px;
+    width: 80%;
+  }
+  .feature-title{
+    width: 100%;
+    margin-left: -200px;
+  }
+  .feature-para{
+    width: 100%;
+    margin-left: -200px;
+  }
+  .footer{
+    margin-top: 80px;
+  }
 }
