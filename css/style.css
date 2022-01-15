@@ -132,10 +132,16 @@ section{
    box-shadow: 10px 10px 20px 20px #8080803b;
    padding-bottom: 17px;
  }
+ .image:hover{
+    transition: transform 2s; 
+    transform: scale(1.5);
+    border-radius: 5px;
+ }
  .banner{
    padding-left: 15px;
    padding-top: 17px;
    padding-right: 17px;
+   overflow: hidden;
  }
 .gear-heading{
   font-size: 30px;
@@ -189,4 +195,60 @@ section{
 a{
   text-decoration: none;
 }
-/* <small class="small-rating">rating</small> */
+.feature-product{
+  margin-top: 100px;
+  margin-left: 135px;
+  margin-bottom: 100px;
+}
+.feature{
+  display: flex;
+}
+.feature-title{
+  font-size: 35px;
+  font-weight: 700;
+}
+.feature-image img{
+  width: 404px;
+  height: 270px;
+}
+.feature-details{
+  height: 224px;
+  margin-left: 96px;
+  margin-top: -25px;
+}
+.feature-para{
+  font-size: 16px;
+  font-weight: 700;
+  width: 500px;
+  margin-bottom: 30px;
+}
+.join-btn{
+  background-color: #E02C6D;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+}
+.foot-h{
+  font-size: 24px;
+}
+.foot-para{
+  font-size: 14px;
+  font-weight: 300;
+  width: 260px;
+  margin-left: 390px;
+  margin-top: -20px;
+}
+.soicon{
+  margin-left: 10px;
+  width: 32px;
+  height: 32px;
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
