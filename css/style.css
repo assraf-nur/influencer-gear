@@ -104,11 +104,89 @@ section{
      padding: 20px;
      margin-left: 20px;
  }
- .popular{
-     margin-top: 100px;
+ .popular, .popular2, .popular3{
+     margin-top: 30px;
+ }
+ .gear-details{
+      padding-left: 20px;
+      padding-top: 17px;
+      padding-right: 17px;
  }
  .popular-title{
      text-align: center;
      font-size: 28px;
      font-weight: 600px;
+     margin-left: 95px;
+     margin-top: 100px;
  }
+ .gears-column{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column-gap: 30px;
+
+ }
+ .gear{
+   width: 329px;
+   height: 476px;
+   border-radius: 7px;
+   box-shadow: 10px 10px 20px 20px #8080803b;
+   padding-bottom: 17px;
+ }
+ .banner{
+   padding-left: 15px;
+   padding-top: 17px;
+   padding-right: 17px;
+ }
+.gear-heading{
+  font-size: 30px;
+  margin-top: 5px;
+}
+.gear-price{
+  color: #d66161;
+  margin-top: -20px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.gear-info{
+  margin-top: -10px;
+}
+.fill{
+  color: #FB8200;
+  font-size: 14px;
+}
+.rating{
+  font-size: 14px;
+  margin-left: 10px;
+}
+.small-rating{
+  color: #3A3A3A;
+  background-color: #FB8200;
+  border-radius: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-size: 9px;
+}
+.gear-para{
+  width: 250px;
+  height: 61px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+.pop-gear{
+  margin-left: 25px;
+}
+.see-more{
+  font-size: 16px;
+  color: #E02C6D;
+  text-align: end;
+  margin-right: 30px;
+}
+.ar{
+  margin-left: 8px;
+}
+a{
+  text-decoration: none;
+}
+/* <small class="small-rating">rating</small> */
