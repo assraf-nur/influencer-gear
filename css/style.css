@@ -11,6 +11,8 @@ section{
     margin-left: 120px;
     margin-right: 120px;
 }
+
+/* navbar section */
 .bar{
     display: flex;
 }
@@ -32,6 +34,8 @@ section{
     overflow: hidden;
   }
 
+
+  /* Starting camera section */
   .camera{
       display: flex;
       margin-top: 50px;
@@ -72,6 +76,10 @@ section{
       color: #ffffff;
       background-color: rgb(7, 102, 185);
   }
+  .cam{
+    margin-top: 30px;
+    margin-left: 30px;
+  }
   .camimg {
     position: relative;
     display: inline-block;
@@ -95,6 +103,8 @@ section{
    transform: rotate( 35deg );
    transition: transform 1s;
  }
+
+ /* shopping site section */
  .mart{
     margin-top: 100px;
     width: 1110px;
@@ -104,6 +114,8 @@ section{
      padding: 20px;
      margin-left: 20px;
  }
+
+ /* popular gears section */
  .popular, .popular2, .popular3{
      margin-top: 30px;
  }
@@ -192,6 +204,8 @@ section{
 .ar{
   margin-left: 8px;
 }
+
+/* Join section */
 a{
   text-decoration: none;
 }
@@ -228,6 +242,8 @@ a{
   padding: 10px 20px;
   font-size: 16px;
 }
+
+/* footer section */
 .footer{
   background-color: black;
   color: white;
